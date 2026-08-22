@@ -6,7 +6,7 @@ import pandas as pd
 
 # Load your API key from .env file
 load_dotenv()
-API_KEY = os.getenv("OPENWEATHER_API_KEY")
+API_KEY = st.secrets.get("OPENWEATHER_API_KEY") or os.getenv("OPENWEATHER_API_KEY")
 
 def get_weather():
     """
