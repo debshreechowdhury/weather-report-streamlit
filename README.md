@@ -17,19 +17,27 @@ This is a very simple weather report app built using Streamlit.
 ## Installation
 
 Clone the repo
+
 git clone https://github.com/debshreechowdhury/weather-report-streamlit.git
+
 cd weather-report-streamlit
 
 Create and activate a virtual environment
+
 python3 -m venv .venv
+
 source .venv/bin/activate   # macOS/Linux
+
 .\.venv\Scripts\Activate.ps1  # Windows PowerShell
 
 Install dependencies
+
 pip install -r requirements.txt
 
 Running the App
+
 streamlit run weather_report.py
+
 Then open your browser at http://localhost:8501.
 
 ## Usage
